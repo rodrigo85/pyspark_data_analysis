@@ -563,7 +563,7 @@ fig.show()
 
 ```
 
-<img src="https://github.com/rodrigo85/pyspark_data_analysis/blob/5584d050a0cce6539af44dede4c011a64b036f9f/data/graph3.gif" height="500" alt="Sankey diagram" title="Sankey diagram">
+<img src="./graph3.gif" height="500" alt="Sankey" title="Sankey">
 
 
 #### Dataset:
