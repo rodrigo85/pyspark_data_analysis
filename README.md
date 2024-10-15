@@ -1,15 +1,10 @@
-# 📈 Real-Time Stock Order Matching Engine
+# ✈️ Flight Route and Capacity Analysis
 
-This project implements a real-time stock order matching system using Python, Kafka, and Cassandra. The engine processes buy and sell orders, efficiently matching them based on price and quantity. It handles real-time order streams via Kafka, and stores active, completed, and historical data in Cassandra for further analysis.
+This project aims to analyze flight routes, aircraft capacity, and traffic patterns using data from Delta tables stored in Amazon S3. 
+By leveraging visualizations such as Sankey diagrams and treemaps, the project provides insights into flight capacity rates, major flight routes, and airport traffic distribution. 
+The analysis can be used to support decision-making in route optimization, load management, and resource allocation for airlines and airports.
 
-The project simulates a fully operational order book for stock trading with features to track and log trade matches, ensuring accurate records of completed and historical trades.
+🌐 Check the full results and analysis in the [`Flight.md`](./data/Flight.md) file.
 
-🎥 Watch a recorded test of the project in action [here](https://youtu.be/inrQesrC7e4?si=kgktBdoYRYxzMHZv).
-
-#### Key Features:
-- Real-time processing of stock buy/sell orders
-- Kafka for handling live streams of orders
-- Cassandra for storing active, completed, and historical orders
-- Python-based order matching logic
-
-🚀 Explore the source code to see how the order book matches trades and updates order statuses.
+#### Dataset:
+Data sourced from the [PostgresPro Demo Database](https://postgrespro.com/community/demodb).
