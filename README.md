@@ -6,10 +6,7 @@ The analysis can be used to support decision-making in route optimization, load 
 
 🌐 Check the full results and analysis in the [`Flight.md`](./data/Flight.md) file.
 
-#### Dataset:
-Data sourced from the [PostgresPro Demo Database](https://postgrespro.com/community/demodb).
-
-#### Technology Stack
+#### 🛠️ Tools & Technologies
 
 - ![Spark](https://img.shields.io/badge/-Apache%20Spark-FDEE21?logo=apachespark&logoColor=black) **Apache PySpark**: Distributed data processing.
 
@@ -20,3 +17,6 @@ Data sourced from the [PostgresPro Demo Database](https://postgrespro.com/commun
 - ![Matplotlib](https://img.shields.io/badge/-Matplotlib-008080?logo=python&logoColor=white) **Matplotlib**: Visual insights.
 
 - ![Plotly](https://img.shields.io/badge/-Plotly-3F4F75?logo=plotly&logoColor=white) **Plotly**: Interactive visualizations.
+
+#### Dataset:
+Data sourced from the [PostgresPro Demo Database](https://postgrespro.com/community/demodb).
